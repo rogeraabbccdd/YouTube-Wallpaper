@@ -1,0 +1,57 @@
+{
+	"contentrating" : "Everyone",
+	"description" : "A YouTube player.",
+	"file" : "index.html",
+	"general" : 
+	{
+		"localization" : 
+		{
+			"en-us" : 
+			{
+				"ui_link" : "YouTube link",
+				"ui_volume" : "Volume"
+			},
+			"zh-chs" : 
+			{
+				"ui_link" : "YouTube 链接",
+				"ui_volume" : "音量"
+			},
+			"zh-cht" : 
+			{
+				"ui_link" : "YouTube 網址",
+				"ui_volume" : "音量"
+			}
+		},
+		"properties" : 
+		{
+			"link" : 
+			{
+				"text" : "ui_link",
+				"type" : "textinput",
+				"value" : ""
+			},
+			"schemecolor" : 
+			{
+				"order" : 0,
+				"text" : "ui_browse_properties_scheme_color",
+				"type" : "color",
+				"value" : "0 0 0"
+			},
+			"vol" : 
+			{
+				"max" : 100,
+				"min" : 0,
+				"text" : "ui_volume",
+				"type" : "slider",
+				"value" : 80
+			}
+		}
+	},
+	"preview" : "thumb.jpg",
+	"tags" : [ "Unspecified" ],
+	"title" : "YouTube Player",
+	"type" : "web",
+	"version" : 1,
+	"workshopid" : "2743970229",
+	"workshopurl" : "steam://url/CommunityFilePage/2743970229"
+}
